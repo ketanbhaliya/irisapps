@@ -3,7 +3,6 @@ import pickle
 
 st.title("Iris Prediction")
 
-# load model
 with open("model_svm.pkl", "rb") as f:
     model = pickle.load(f)
 
